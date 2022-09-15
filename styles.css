@@ -35,6 +35,12 @@ hr {
     color: white;
 }
 
+.link-center {
+    display: block;
+    max-width: 6rem;
+    margin: auto;
+}
+
 .link-secondary {
     color: var(--primary-color);
     border-radius: 2rem;
