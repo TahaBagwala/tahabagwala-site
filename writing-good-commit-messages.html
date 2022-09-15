@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs | Taha Bagwala</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navigation container">
+        <div class="nav-brand">#iAmDeveloper</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link" href="/">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="/projects.html">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="/blogs.html">Blogs</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1 class="hero-heading">Writing good <span class="header-inverted">Commit Messages</span></h1>
+        <img class="hero-image" src="images/blog-commit-message.svg"/>
+    </header>
+
+    <section class="section">
+        <h1>Why should you write better commit messages?</h1>
+        <h2>Back to the Future</h2>
+        <p>By writing good commits, you are simply future-proofing yourself. You could save yourself and/or coworkers hours of digging around while troubleshooting by providing that helpful description.</p>
+        <p>The extra time it takes to write a thoughtful commit message as a letter to your potential future self is extremely worthwhile. On large scale projects, documentation is imperative for maintenance.</p>
+        <p>Collaboration and communication are of utmost importance within engineering teams. The Git commit message is a prime example of this. I highly suggest setting up a convention for commit messages on your team if you do not already have one in place.</p>
+        
+        <h1>The Anatomy of a Commit Message</h1>
+        <h2>Basic:</h2>
+        <p>git commit -m [message].</p>
+        <h2>Detailed:</h2>
+        <p>git commit -m [title] -m [description].</p>
+
+        <h1>5 Steps to Write Better Commit Messages</h1>
+        <p>Let's summarize the suggested guidelines:</p>
+        <ol>
+            <li>
+                <strong>Capitalization and Punctuation:</strong> Capitalize the first word and do not end in punctuation. If using Conventional Commits, remember to use all lowercase.
+            </li>
+            <li>
+                <strong>Mood:</strong> Use imperative mood in the subject line. Example – Add fix for dark mode toggle state. Imperative mood gives the tone you are giving an order or request.
+            </li>
+            <li>
+                <strong>Type of Commit:</strong> Specify the type of commit. It is recommended and can be even more beneficial to have a consistent set of words to describe your changes. Example: Bugfix, Update, Refactor, Bump, and so on. See the section on Conventional Commits below for additional information.
+            </li>
+            <li>
+                <strong>Length:</strong> The first line should ideally be no longer than 50 characters, and the body should be restricted to 72 characters.
+            </li>
+            <li>
+                <strong>Content:</strong> Be direct, try to eliminate filler words and phrases in these sentences (examples: though, maybe, I think, kind of). Think like a journalist.
+            </li>
+        </ol>
+
+        <h1>Few useful titles to use</h1>
+        <ul>
+            <li>
+                feat - a new feature
+            </li>
+            <li>
+                fix - a bug fix
+            </li>
+            <li>
+                docs - changes in documentation
+            </li>
+            <li>
+                style - everything related to styling
+            </li>
+            <li>
+                refactor - code changes that neither fixes a bug or adds a feature
+            </li>
+            <li>
+                test - everything related to testing
+            </li>
+            <li>
+                chore - updating build tasks, package manager configs, etc.
+            </li>
+        </ul>
+    </section>
+    
+
+
+    <footer class="footer">
+        <div class="footer-header">My Social Media links</div>
+        <ul class="list-non-bullet">
+            <li class="list-item-inline">
+                <a class="link" href="https://www.instagram.com/_tahabagwala" target=”_blank”>
+                    Instagram
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://github.com/TahaBagwala" target=”_blank”>
+                    GitHub
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="https://wa.me/+919981682752" target=”_blank”>
+                    WhatsApp
+                </a>
+            </li>
+        </ul>
+    </footer>
+</body>
+</html>

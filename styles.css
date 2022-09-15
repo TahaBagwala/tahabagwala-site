@@ -130,10 +130,16 @@ hr {
 
 section {
     padding: 2rem;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .section h1 {
     text-align: center;
+}
+
+.section h2 {
+    padding: 0rem 1rem;
 }
 
 .ow {
