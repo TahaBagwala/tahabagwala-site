@@ -4,6 +4,8 @@
     --primary-color: #0ea5e9;
     --dark-gray: #9ca3af;
     --off-white: #f3f4f6;
+    --purple: #581c87;
+    --light-green: #86efac;
 }
 
 body {
@@ -34,6 +36,9 @@ hr {
     border-radius: 2rem;
     color: white;
 }
+.link-primary:hover{
+    background-color: var(--purple);
+}
 
 .link-center {
     display: block;
@@ -42,10 +47,17 @@ hr {
     margin: auto;
 }
 
+.link-project-center{
+    text-align: center;
+}
+
 .link-secondary {
     color: var(--primary-color);
     border-radius: 2rem;
     border: 1px solid var(--primary-color);
+}
+.link-secondary:hover{
+    background-color: var(--light-green);
 }
 
 .list-non-bullet {
@@ -63,7 +75,7 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-right-radius: 2rem;
-    margin: 0rem 5rem;
+    margin: 0rem 3rem;
 }
 
 .navigation .link {
@@ -121,7 +133,7 @@ section {
     text-align: center;
     color: white;
     border-top-left-radius: 2rem;
-    margin: 0rem 5rem;
+    margin: 0rem 3rem;
 }
 
 .footer .link {
