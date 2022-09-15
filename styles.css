@@ -70,6 +70,18 @@ hr {
 
 }
 
+.showcase-project-list {
+    padding: 1rem 2rem 3rem;
+    border-radius: 2.5rem;
+    text-align: center;
+    margin: 3rem auto;
+    max-width: 750px;
+}
+
+.showcase-blog {
+    padding-bottom: 6rem;
+}
+
 .navigation {
     background-color: var(--primary-color);
     color: white;
@@ -97,6 +109,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
 }
 
 .hero-image {
@@ -138,7 +151,6 @@ section {
 
 .footer .link {
     color: white;
-
 }
 
 .footer ul {
@@ -149,3 +161,23 @@ section {
     font-weight: bold;
     font-size: large;
 }
+
+@media (max-width: 900px) {
+    body {
+      max-width: 95%;
+      width: 100%;
+    }
+  
+    .list-item-inline {
+      display: inline;
+      padding: 0rem;
+    }
+  
+    .container-center {
+      width: auto;
+    }
+  
+    .link-primary {
+      display: block;
+    }
+  }
