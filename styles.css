@@ -37,6 +37,7 @@ hr {
 
 .link-center {
     display: block;
+    text-align: center;
     max-width: 6rem;
     margin: auto;
 }
@@ -62,6 +63,7 @@ hr {
     color: white;
     padding: 1rem;
     border-bottom-right-radius: 2rem;
+    margin: 0rem 5rem;
 }
 
 .navigation .link {
@@ -119,6 +121,7 @@ section {
     text-align: center;
     color: white;
     border-top-left-radius: 2rem;
+    margin: 0rem 5rem;
 }
 
 .footer .link {
