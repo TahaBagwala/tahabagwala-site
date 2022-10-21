@@ -12,9 +12,10 @@ h1 {
 
 img {
     display: block;
-    image-rendering: auto;
     margin: auto;
-    width: 10% ;
+    width: 12% ;
+    border-radius: 6rem;
+
 }
 
 textarea {
