@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Homemade+Apple&family=IM+Fell+DW+Pica+SC&display=swap');
+
+body{
+    background-color: #6ee7b7;
+    font-family: 'Cairo', sans-serif;
+}
+
+h1 {
+    font-family: 'Homemade Apple', cursive;
+    text-align: center;
+}
+
+img {
+    display: block;
+    image-rendering: auto;
+    margin: auto;
+    width: 10% ;
+}
+
+textarea {
+    width: 40%;
+    height: 30vh;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    resize: none;
+    border-width: 0.15rem;
+    font-size: 1.25rem;
+    background-color: #f8f8f8;
+    border-color: #64748b;
+    float: left;
+    font-family: 'Cairo', sans-serif;
+}
+
+#translate-btn{
+    padding: 1rem 2rem;
+    margin: 7rem 1rem 0rem 2rem;
+    border-radius: 1.5rem;
+    font-weight: bold;
+}
+
+#translate-btn:hover{
+    background-color: #0ea5e9;
+    cursor: pointer;
+}
+
+#output {
+    font-family: 'IM Fell DW Pica SC', serif;
+    border: 1px solid #64748b;
+    width: 40%;
+    height: 30vh;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-width: 0.15rem;
+    font-size: 1.5rem;
+    background-color: #f8f8f8;
+    float: right;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:auto;
+    text-align: center;
+}
+
+footer p {
+    max-width: 800px;
+    margin: auto;
+    padding-bottom: 10px;
+    
+}
