@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.font {
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+nav {
+    background-color: #86efac;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem ;
+    color: #0ea5e9;
+    font-weight: bolder;
+}
+
+textarea {
+    width: 50%;
+    height: 15vh;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    resize: none;
+    border-width: 0.15rem;
+    font-size: 1.15rem;
+    background-color: #f8f8f8;
+    border-color: #64748b;
+}
+
+.centerElement {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    font-size: 18px;
+    color: #0ea5e9;
+}
+
+.btn :hover {
+    background-color: #86efac;
+    cursor: pointer;
+    font-size: 120%;
+}
+
+#translate-output{
+    border: 1px solid #64748b;
+    width: 50%;
+    height: 15vh;
+    margin: 0rem 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border-width: 0.15rem;
+    font-size: 1.15rem;
+    background-color: #f8f8f8;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height:auto;
+    background:#86efac;
+    color: #0ea5e9;
+    text-align: center;
+}
+
+footer div{
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+footer p{
+    max-width: 600px;
+    margin: auto;
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
